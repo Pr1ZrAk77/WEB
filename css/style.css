@@ -1,0 +1,46 @@
+body {
+    color: #2a2a2a;
+    background-color: aliceblue;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header {
+    color: white;
+    background-color: darkblue;
+    margin: 20px 50px 100px 70px;
+    padding: 30px 30px 40px 50px;
+    border-color: #d7711e;
+    border-style: solid;
+    border-radius: 64px;
+}
+#structure{
+    background-color: rgb(199, 29, 145);
+}
+
+b,
+i,
+del {
+    background-color: aquamarine;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: brown;
+}
+.site-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.site-menu li {
+    padding: 20px;
+}
